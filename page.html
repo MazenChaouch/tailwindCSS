@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="h-screen flex justify-center items-center bg-slate-200">
+      <div
+        class="flex flex-col w-72 shadow-xl rounded-lg overflow-hidden bg-white"
+      >
+        <img
+          src="assets/cover-product.jpeg"
+          alt="product"
+          class="object-cover"
+        />
+        <div class="py-4 px-6 flex flex-col gap-1">
+          <div class="flex w-full gap-2">
+            <span
+              class="uppercase text-sm font-black bg-[#9AF7E4] text-[#237e6e] px-4 rounded-full"
+            >
+              new
+            </span>
+            <span
+              class="text-sm font-black tracking-wider text-stone-600 uppercase flex justify-center items-center gap-2"
+            >
+              3 beds
+              <span class="flex size-1.5 bg-stone-600 rounded-full"></span> 2
+              baths
+            </span>
+          </div>
+          <div class="font-bold text-xl"> Beautiful Home in the ... </div>
+          <div>
+            <span class="text-stone-600 text-sm">$</span>1,900.00<span
+              class="text-stone-600 text-sm"
+            >
+              / wk</span
+            >
+          </div>
+          <div class="flex gap-2">
+            <div class="flex gap-1"
+              ><img src="assets/star-solid.svg" class="size-6" />
+              <img src="assets/star-solid.svg" class="size-6" />
+              <img src="assets/star-solid.svg" class="size-6" />
+              <img src="assets/star-solid.svg" class="size-6" />
+              <img src="assets/star-outline.svg" class="size-6" />
+            </div>
+            <span class="font-black text-stone-500">34 reviews</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
